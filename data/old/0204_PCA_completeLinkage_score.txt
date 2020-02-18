@@ -1,0 +1,93 @@
+
+************2020-02-05 22:25:46************
+
+
+n_clusters =31The average silhouette_score is :0.9739153192350856
+n_clusters =31The average DBI_score is :0.29206419745283946
+
+n_clusters =32The average silhouette_score is :0.9849793606435603
+n_clusters =32The average DBI_score is :0.28593965518702025
+
+n_clusters =33The average silhouette_score is :0.9849637911490233
+n_clusters =33The average DBI_score is :0.25676963223786725
+
+n_clusters =34The average silhouette_score is :0.984972098113995
+n_clusters =34The average DBI_score is :0.25809464481067823
+
+n_clusters =35The average silhouette_score is :0.9849445675477857
+n_clusters =35The average DBI_score is :0.26734788815525545
+
+n_clusters =36The average silhouette_score is :0.984923042988496
+n_clusters =36The average DBI_score is :0.2624391774452429
+
+n_clusters =37The average silhouette_score is :0.9840099737685152
+n_clusters =37The average DBI_score is :0.2759598301988349
+
+n_clusters =38The average silhouette_score is :0.9840371875268098
+n_clusters =38The average DBI_score is :0.272076673601147
+
+n_clusters =39The average silhouette_score is :0.9840327114995868
+n_clusters =39The average DBI_score is :0.25719301545777473
+
+n_clusters =40The average silhouette_score is :0.983530225623444
+n_clusters =40The average DBI_score is :0.26849685839406245
+
+n_clusters =41The average silhouette_score is :0.9834932145242858
+n_clusters =41The average DBI_score is :0.27445128034222993
+
+n_clusters =42The average silhouette_score is :0.9834988753224302
+n_clusters =42The average DBI_score is :0.26560332998798974
+
+n_clusters =43The average silhouette_score is :0.9828496097052365
+n_clusters =43The average DBI_score is :0.2686374251367387
+
+n_clusters =44The average silhouette_score is :0.9828378262398202
+n_clusters =44The average DBI_score is :0.26972327446272015
+
+n_clusters =45The average silhouette_score is :0.9827395304523623
+n_clusters =45The average DBI_score is :0.27728975853320836
+
+n_clusters =46The average silhouette_score is :0.9827459528348103
+n_clusters =46The average DBI_score is :0.2771053974252262
+
+n_clusters =47The average silhouette_score is :0.9827252101798761
+n_clusters =47The average DBI_score is :0.27531537516747806
+
+n_clusters =48The average silhouette_score is :0.9827218645617267
+n_clusters =48The average DBI_score is :0.27977782689582686
+
+n_clusters =49The average silhouette_score is :0.9827417483033135
+n_clusters =49The average DBI_score is :0.2784382483222195
+
+n_clusters =50The average silhouette_score is :0.9827818542578703
+n_clusters =50The average DBI_score is :0.27453380606687616
+
+n_clusters =51The average silhouette_score is :0.9827854796692254
+n_clusters =51The average DBI_score is :0.2644628703665863
+
+n_clusters =52The average silhouette_score is :0.9827892287595148
+n_clusters =52The average DBI_score is :0.2577169244518651
+
+n_clusters =53The average silhouette_score is :0.9826744405856118
+n_clusters =53The average DBI_score is :0.2600570030143756
+
+n_clusters =54The average silhouette_score is :0.9824391291559641
+n_clusters =54The average DBI_score is :0.26097662491099255
+
+n_clusters =55The average silhouette_score is :0.9824196927409227
+n_clusters =55The average DBI_score is :0.2655494220763058
+
+n_clusters =56The average silhouette_score is :0.9823484953699394
+n_clusters =56The average DBI_score is :0.2740982945312452
+
+n_clusters =57The average silhouette_score is :0.982331848642362
+n_clusters =57The average DBI_score is :0.2722858937187201
+
+n_clusters =58The average silhouette_score is :0.982369136856576
+n_clusters =58The average DBI_score is :0.26853694454114474
+
+n_clusters =59The average silhouette_score is :0.9823926773752222
+n_clusters =59The average DBI_score is :0.2726072197850007
+
+n_clusters =60The average silhouette_score is :0.9774899635294867
+n_clusters =60The average DBI_score is :0.28378712489090496
