@@ -2,15 +2,19 @@
 
 echo "[ Result Extraction Script ]"
 echo " "
-echo " "
 
-if [ $# -ne 2 ]; then
+if [ $# -ne 1 ]; then
 
-	echo "./num_extract.sh [filename] [sil/DBI]"
+	echo "./num_extract.sh [filename]"
 	echo "Two Parameters input required!"
 	exit 1
 fi
 
-cat ${1} | grep -E ${2} | cut -d: -f2
+echo "[silhoutte]"
+cat ${1} | grep -E sil | cut -d: -f2
+
+echo " "
+echo "[DBI]"
+cat ${1} | grep -E DBI | cut -d: -f2
 
 exit 0
