@@ -1,4 +1,5 @@
 # Experimental Setting File
 
-date:0222
+date:0224
+flist:totalOpenReq totalFile totalIOReq totalReadReq numProc seqWritePct numOST
 dataname:total_all_1G_pp_norm_top2d.csv

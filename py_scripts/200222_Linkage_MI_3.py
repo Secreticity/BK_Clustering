@@ -15,13 +15,15 @@ lines = f.readlines()
 for line in lines:
     if line.find("date") != -1:
         datestamp = line.split(":")[1].rstrip()
+    if line.find("flist") != -1:
+        flist = list(line.split(":")[1].rstrip().split(" "))
     if line.find("dataname") != -1:
         file_name = line.split(":")[1].rstrip()
 f.close()
 
 df = pd.read_csv(file_name)
 
-flist = ["seqReadPct","totalOpenReq","totalFile","totalReadReq","totalIOReq","seqWritePct","totalMetaReq"]
+#flist = ["seqReadPct","totalOpenReq","totalFile","totalReadReq","totalIOReq","seqWritePct","totalMetaReq"]
 #flist = ["totalReadReq","totalFile","totalFileSTDIO","stripeSize","writeLess1k","writeTimePOSIXonly","readLess1m"]
 df = df[flist[0:3]]
 
