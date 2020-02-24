@@ -35,7 +35,7 @@ text_file.write("\n************"+datetime.datetime.now().strftime('%Y-%m-%d %H:%
 text_file.close()
 
 ### Number of clusters
-for n_clusters in range(2,3):
+for n_clusters in range(2,31):
     model = KMeans(n_clusters=n_clusters).fit(data_points)
     predict = pd.DataFrame(model.fit_predict(df))
     predict.columns=['predict']

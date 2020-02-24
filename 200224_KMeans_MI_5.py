@@ -15,11 +15,11 @@ f = open('setting', 'r')
 lines = f.readlines()
 for line in lines:
     if line.find("date") != -1:
-        datestamp = line.spit(":")[1].rstrip()
+        datestamp = line.split(":")[1].rstrip()
     if line.find("flist") != -1:
         flist = list(line.split(":")[1].rstrip().split(" "))
     if line.find("dataname") != -1:
-        file_name = line.split(":")[1].srtrip()
+        file_name = line.split(":")[1].rstrip()
 f.close()
 
 df = pd.read_csv(file_name)
